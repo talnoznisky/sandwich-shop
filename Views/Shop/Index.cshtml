@@ -1,0 +1,13 @@
+﻿@model IEnumerable<SandwichShop.Data.Category>
+@{
+    ViewData["Title"] = "Shop";
+}
+    <div class="row">
+    @foreach (var category in this.Model)
+    {
+        <div class="col-md-4">
+            <h2>@category.Type</h2>
+            <h3>@category.Description</h3>
+        </div>
+    }
+    </div>
