@@ -13,7 +13,8 @@ namespace SandwichShop.Controllers
         private SqlConnection _connection;
         public ABCReportController(System.Data.SqlClient.SqlConnection connection)
         {
-            this._connection = connection;
+
+                        this._connection = connection;
         }
 
         public IActionResult Index(SqlViewModel model)
