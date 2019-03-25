@@ -1,0 +1,20 @@
+﻿@model ICollection<SandwichShop.Data.Product>
+
+
+<div class="row">
+    @foreach (var product in this.Model)
+    {
+    <div class="col-md-4">
+        <div>
+            <img src="@product.Image" width="100%" />
+        </div>
+        <h1>@product.Name</h1>
+        <a>Get this Sandwich!</a>
+        <a asp-controller="cart" asp-action="index" asp-route-id="@product.ID" class="btn btn-primary m-3">Add to Cart</a>
+
+
+    </div>
+
+    }
+
+</div>

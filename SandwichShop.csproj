@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>309eef11-7524-459c-9038-1e6a890d783c</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,8 +12,14 @@
   <ItemGroup>
     <Folder Include="Views\Shop\" />
     <Folder Include="Data\" />
+    <Folder Include="Views\Order\" />
+    <Folder Include="Views\Cart\" />
+    <Folder Include="Views\ABCReport\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Data\Sandwiches.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Order\Receipt.cshtml" />
   </ItemGroup>
 </Project>

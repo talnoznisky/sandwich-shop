@@ -1,0 +1,15 @@
+﻿@model SandwichShop.Data.Cart
+
+<h1>Your cart:</h1>
+<div class="row">
+    @foreach (var product in this.Model.Cartproducts)
+    {
+        <div>
+            <img src="@product.Image" width="100%" />
+        </div>
+        <p>@product.Name</p>
+    }
+    <a asp-controller="shop" asp-action="index" class="btn btn-primary m-3">Add another sandwich</a>
+    <a asp-controller="order" asp-action="index" class="btn btn-primary m-3">Check out</a>
+
+</div>

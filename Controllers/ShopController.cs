@@ -11,9 +11,23 @@ namespace SandwichShop.Controllers
 {
     public class ShopController : Controller
     {
-        public IActionResult Index() 
+        public IActionResult Index()
         {
             return View(MockData.categories);
+        }
+
+        public IActionResult Category(int id)
+        {
+            ICollection<Product> products = null;
+            foreach (var category in MockData.categories)
+            {
+                if(category.ID == id)
+                {
+                    products = category.Products;
+                }
+            }
+
+            return View(products);
         }
     }
 }

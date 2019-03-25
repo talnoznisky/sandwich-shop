@@ -1,33 +1,12 @@
 ﻿<Properties StartupConfiguration="{604E1F84-B8ED-4CB3-AFA6-6B6C266CAB52}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ShopController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SandwichShop.csproj">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Startup.cs" Line="1" Column="1" />
-      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="Views/Home/Index.cshtml" Line="20" Column="2" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="57" Column="47" />
-      <File FileName="Views/Shop/Index.cshtml" Line="1" Column="32" />
-      <File FileName="Data/Category.cs" Line="8" Column="26" />
-      <File FileName="Data/MockData.cs" Line="30" Column="7" />
-      <File FileName="Controllers/ShopController.cs" Line="15" Column="29" />
+      <File FileName="Startup.cs" Line="36" Column="76" />
+      <File FileName="Controllers/ABCReportController.cs" Line="15" Column="10" />
+      <File FileName="Models/OrderViewModel.cs" Line="12" Column="5" />
+      <File FileName="Controllers/OrderController.cs" Line="24" Column="71" />
+      <File FileName="SandwichShop.csproj" Line="5" Column="56" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="SandwichShop" expanded="True">
-            <Node name="SandwichShop" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ShopController.cs" selected="True" />
-              </Node>
-              <Node name="Data" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Shop" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

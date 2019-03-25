@@ -31,3 +31,9 @@
 /Users/talnoznisky/Desktop/coding-temple/SandwichShop/obj/Debug/netcoreapp2.1/SandwichShop.Views.pdb
 /Users/talnoznisky/Desktop/coding-temple/SandwichShop/obj/Debug/netcoreapp2.1/SandwichShop.csproj.CopyComplete
 /Users/talnoznisky/Desktop/coding-temple/SandwichShop/obj/Debug/netcoreapp2.1/Razor/Views/Shop/Index.g.cshtml.cs
+/Users/talnoznisky/Desktop/coding-temple/SandwichShop/obj/Debug/netcoreapp2.1/Razor/Views/Shop/Category.g.cshtml.cs
+/Users/talnoznisky/Desktop/coding-temple/SandwichShop/obj/Debug/netcoreapp2.1/Razor/Views/Cart/Index.g.cshtml.cs
+/Users/talnoznisky/Desktop/coding-temple/SandwichShop/obj/Debug/netcoreapp2.1/Razor/Views/Order/Confirmation.g.cshtml.cs
+/Users/talnoznisky/Desktop/coding-temple/SandwichShop/obj/Debug/netcoreapp2.1/Razor/Views/Order/Index.g.cshtml.cs
+/Users/talnoznisky/Desktop/coding-temple/SandwichShop/obj/Debug/netcoreapp2.1/Razor/Views/ABCReport/Index.g.cshtml.cs
+/Users/talnoznisky/Desktop/coding-temple/SandwichShop/obj/Debug/netcoreapp2.1/UserSecretsAssemblyInfo.cs

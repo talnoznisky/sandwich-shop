@@ -6,8 +6,17 @@
     @foreach (var category in this.Model)
     {
         <div class="col-md-4">
+            <div>
+                <img src="@category.Image" class="img-fluid" width="100%"/>
+            </div>
+
             <h2>@category.Type</h2>
             <h3>@category.Description</h3>
+            @foreach(var product in @category.Products){
+                <p>@product.Name</p>
+            }
+            <a class="btn btn-block btn-secondary" asp-controller="shop" asp-action="category" asp-route-id="@category.ID">See More!</a>
+
         </div>
     }
     </div>
