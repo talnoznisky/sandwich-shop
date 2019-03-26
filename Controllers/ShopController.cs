@@ -11,8 +11,22 @@ namespace SandwichShop.Controllers
 {
     public class ShopController : Controller
     {
+
+        private ApplicationDbContext _context;
+
+        public ShopController(ApplicationDbContext context)
+        {
+            this._context = context;
+        }
+
         public IActionResult Index()
         {
+
+            if (!_context.Categories.Any())
+            {
+                _context.Categories.AddRange(MockData.categories);
+                _context.SaveChanges();
+            }
             return View(MockData.categories);
         }
 

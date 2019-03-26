@@ -22,4 +22,7 @@
   <ItemGroup>
     <Content Remove="Views\Order\Receipt.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="add-userid.png" />
+  </ItemGroup>
 </Project>

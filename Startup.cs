@@ -21,7 +21,6 @@ namespace SandwichShop
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            string style1 = configuration.GetValue<string>("ConnectionStrings:ABCConnection");
 
         }
 
@@ -33,7 +32,7 @@ namespace SandwichShop
 
             services.AddTransient(ServiceProvider =>
             {
-                string connectionString = Configuration.GetConnectionString("ABCConnectionString");
+                string connectionString = Configuration.GetValue<string>("ConnectionStrings:ABCConnectionString");
                 System.Data.SqlClient.SqlConnection connection = new System.Data.SqlClient.SqlConnection(connectionString);
                 return connection;
             });
@@ -46,7 +45,10 @@ namespace SandwichShop
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseSqlServer(
+                Configuration.GetConnectionString("DefaultConnection")));
+           
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
 

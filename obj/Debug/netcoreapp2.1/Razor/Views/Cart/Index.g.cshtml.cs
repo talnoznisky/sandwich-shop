@@ -94,7 +94,7 @@ WriteAttributeValue("", 172, product.Image, 172, 14, false);
             WriteLiteral("    ");
             EndContext();
             BeginContext(262, 96, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3f8c5c02555d4248bc624e54197d61a0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aeaff33c3cc64f5d926f48731fa0e145", async() => {
                 BeginContext(334, 20, true);
                 WriteLiteral("Add another sandwich");
                 EndContext();
@@ -119,7 +119,7 @@ WriteAttributeValue("", 172, product.Image, 172, 14, false);
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(364, 86, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "832437b043e9428ab976af55df65f29c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6696b8186df24cd79acd0c932512dc59", async() => {
                 BeginContext(437, 9, true);
                 WriteLiteral("Check out");
                 EndContext();

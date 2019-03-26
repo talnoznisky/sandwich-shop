@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{604E1F84-B8ED-4CB3-AFA6-6B6C266CAB52}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SandwichShop.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shop/Index.cshtml">
     <Files>
-      <File FileName="Startup.cs" Line="36" Column="76" />
-      <File FileName="Controllers/ABCReportController.cs" Line="15" Column="10" />
-      <File FileName="Models/OrderViewModel.cs" Line="12" Column="5" />
-      <File FileName="Controllers/OrderController.cs" Line="24" Column="71" />
-      <File FileName="SandwichShop.csproj" Line="5" Column="56" />
+      <File FileName="Controllers/ShopController.cs" Line="38" Column="29" />
+      <File FileName="Data/Cart.cs" Line="1" Column="1" />
+      <File FileName="Data/MockData.cs" Line="66" Column="27" />
+      <File FileName="Views/Shop/Category.cshtml" Line="13" Column="76" />
+      <File FileName="Views/Shop/Index.cshtml" Line="18" Column="120" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -66,7 +66,7 @@ using SandwichShop.Models;
                 WriteLiteral("\r\n    <div style=\"position:relative; overflow:hidden\">\r\n        <div class=\"\">\r\n            <div>\r\n\r\n            </div>\r\n            <div class=\"text-right text-dark m-5\">\r\n                <h1>Select your sandwich</h1>\r\n                ");
                 EndContext();
                 BeginContext(302, 87, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e68c22551f404a8b9a9d975b22f448e3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3b865b15c3ae4f679d25fc02cf99f58e", async() => {
                     BeginContext(374, 11, true);
                     WriteLiteral("Get started");
                     EndContext();
